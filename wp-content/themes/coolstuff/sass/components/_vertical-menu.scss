@@ -1,0 +1,61 @@
+.sidebar-static-left{
+    position: relative;
+    @include rtl-float-left;
+    .inner{
+        border: 0;
+        display: none;
+        top: 100%;        
+        position: absolute;
+        margin: 1px 0px;
+        min-width: 250px;
+        @include rtl-left(0);    
+    }
+    .static-left-button{
+        @include rtl-border-right(1px solid $border-color);        
+        outline: medium none;
+        padding: 41px;
+    }
+    .button-action{
+        cursor: pointer;
+        @include size(24px,18px);
+        background: url('#{$image-theme-path}bars.png') no-repeat transparent 0 0;
+    }
+    &.active{
+        .inner{
+            display: block;
+        }
+    }
+    .widget-static{
+        margin: 0;
+    }
+}
+
+.vertical-menu{
+    .sub-menu{
+        position: absolute;
+        @include rtl-left(100%);
+        top: 0;
+        visibility: hidden;
+        @include opacity(0);
+        background: $white;
+        border: 1px solid $border-color;
+        list-style: none;
+        margin: -6px 9px;
+        padding: 10px 20px;
+        min-width: 250px;    
+        @include transition(all 0.3s ease 0s);
+        @include box-shadow(0 6px 12px rgba(0, 0, 0, 0.176));        
+    }
+    .navbar-nav{
+        width: 100%;
+        > li{
+            float: none;
+            &:hover{
+                .sub-menu{
+                    visibility: visible;
+                    @include opacity(1);
+                }
+            }
+        }
+    }    
+}

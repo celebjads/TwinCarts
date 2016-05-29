@@ -1,0 +1,75 @@
+@media (min-width: 1024px) {
+    .product-block{
+        .product-image{
+            &:before{            
+                content: "";
+                z-index: 1;
+                position: absolute;
+                visibility: hidden;
+                background-color: rgba($black, 0.4);
+                @include square(100%);
+                @include opacity(0);
+                @include transition(all 0.3s ease-in 0s);
+            } 
+            img{                
+                @include transition(all 500ms linear);   
+                @include scale(1.0);                 
+            }
+        }        
+        .button-action{			
+            z-index: 10;
+            visibility: hidden;
+			@include rtl-left(-100%);			
+            @include opacity(0);		
+            @include transition(all 0.3s ease-in 0s);	
+        }
+        &:hover{
+        	.button-action{
+                visibility: visible;
+        		@include rtl-left(20px);        		
+                @include opacity(1);
+        	}
+            .product-image{
+                &:before{
+                    visibility: visible;
+                    @include opacity(1);
+                }
+                img{
+                    @include scale(1.2);                     
+                }
+            }
+        }        
+    }
+    .product-block-v2{
+        .button-action{
+            @include rtl-margin(0, 0, 10px, 0px);            
+            transform: translate(-100%, 0px);            
+        }
+        &:hover{
+            .button-action{
+                @include rtl-margin-left(18px);
+                @include translate(0,0);
+            }            
+        }
+    }  
+    .product-block-v3{
+        @include transition(all 0.5s);
+        border-bottom: 2px solid #d6d6d6;
+        &:hover{
+            border: 0;
+            @include box-shadow(0px 12px 30px 0px rgba(0,0,0,0.11));
+        }
+        .name{
+            margin-top: 0;
+        }
+        .meta{
+            padding: 15px;
+            @include rtl-text-align-left;            
+        }
+    }  
+}
+ .product-block-v3{
+    .meta{
+        padding: 15px;
+    }
+ }

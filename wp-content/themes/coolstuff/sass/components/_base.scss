@@ -1,0 +1,321 @@
+/*!
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+ img{
+    max-width: 100%;
+    height:auto;
+ }
+ 
+ .sticky{
+    background: #FFFFFF;
+ }
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+.nopadding{
+   padding:0!important;
+   margin:0!important;
+}
+
+h1,h2,h3,h4,h5{
+   text-transform: uppercase;
+}
+
+/**
+ * Wordpress Elements
+ */
+
+.entry-content-page{ 
+    .edit-link{
+        background:#000;
+       
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding:5px 6px;
+        a{
+            font-size: 11px;
+          color: #FFF!important;
+        }  
+        z-index: 10000;
+    }
+    position:relative;
+}
+
+
+/**
+* 6.0 Tables
+* ----------------------------------------------------------------------------
+*/
+
+/* Widgets > Calendar */
+
+#wp-calendar {
+    font-size: $font-size-base - 2;
+    width: 100%;    
+}
+#wp-calendar thead th { background: #f4f4f4; border: 1px solid $border-color; border-top: none; font-size: 0.846em; color: $brand-primary;  font-weight: 400; }
+#wp-calendar tbody td {padding: 0; text-align: center; border: 1px solid $border-color; line-height: 2.5em; transition: background 0.15s ease; -webkit-transition: background 0.15s ease; -o-transition: background 0.15s ease; -moz-transition: background 0.15s ease; }
+#wp-calendar tbody td:hover { background: darken(#f4f4f4, 10%); color: #333; }
+#wp-calendar tbody td a { display: block; text-decoration: none; background: darken(#f4f4f4, 10%); color: #333; }
+#wp-calendar tbody td:hover a { background: #4d4d4d; color: #fff; }
+#wp-calendar tfoot td { padding-top: 1px; padding: 4px; }
+#wp-calendar caption { cursor: pointer; font-size: 13px; text-transform: uppercase; margin: 0; padding: 12px; outline: 0 none !important; color: #fff; text-align: center; background-color: $theme-color; }
+#wp-calendar tbody a { display: block; text-decoration: underline; }
+#wp-calendar th { text-align: center; border: 1px solid transparent; border-top: none; padding: 7px 0; color: #a7a7a7; }
+
+#wp-calendar{
+    #today{               
+        border: 0;
+        background: $brand-primary;
+        color: $white;
+        &:hover{
+            background-color: $theme-color;
+            border-color: $theme-color;
+            color: $white;
+        }
+    }
+}
+
+#footer #wp-calendar thead th { background: darken($white, 10%); }
+#footer #wp-calendar tbody td { border-color:  darken($white, 10%);}
+
+
+/*------------------------------------*\
+    Comment List
+\*------------------------------------*/
+
+.comments{    
+  margin-top: 30px;
+    .the-comment{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px dotted $border-color;
+    .avatar{
+        @include rtl-float-left();
+        margin-right:5px;
+        img{
+            @include size(50px, 50px);
+            @include border-radius(50%);
+          }
+        }
+    }
+    .children{
+        .the-comment{
+            @include rtl-padding-left(65px);
+        }
+    }
+    .comment-author{
+        color: $theme-color;
+    }
+    .comment-meta {
+        font-size: $font-size-base - 2;
+        color: #aaa;
+    }
+    a{
+        color: $theme-color;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    ol, ul {
+      list-style: none;      
+    }
+    .comment-reply-title{
+      display: none;
+    }
+}
+
+input[type="search"] {
+    border: 1px solid $border-color;    
+    padding: 3px 10px;
+    @include border-radius(3px);
+}
+
+input[type="submit"]{
+  background: $brand-primary;  
+}
+
+.popupnewsletter{
+  .modal-body{
+    padding: 50px 15px 90px;
+  }
+  .modal-dialog{
+    margin: 15em auto;    
+    width: 800px;
+    .modal-content{   
+      border: 0;   
+      @include box-shadow(none);
+      background: url('#{$image-theme-path}popupnewsletter.jpg') no-repeat 0 0 transparent;
+    }    
+  }
+  .btn-flying-right{
+    display: none;
+  }
+  .close{
+    border:0;
+    line-height: 24px;
+    text-align: center;
+    background: $gray-base;
+    @include square(24px);
+    position: absolute;
+    right: 0;
+    top: -12px;
+    z-index: 1;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    span{
+      color: $white;
+      font-size: 20px;
+    }
+  }
+  .description{
+    font-size: 16px;
+  }
+  .mc4wp-form-basic{
+    .form-control{
+      margin: 0 auto;
+      max-width: 378px;
+      min-height: 54px;
+      font-size: 14px;
+      font-weight: 700;
+      &:hover,
+      &:active,
+      &:focus{
+        @include box-shadow(none);        
+      }
+    }
+    input[type="submit"]{
+      font-size: 12px;
+      padding: 12px 30px;
+    }
+  }  
+}
+
+.list-menu{
+  li{
+    @include rtl-float-left;
+    text-transform: uppercase;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    border-right: 1px solid $border-color;
+    border-left: 0  !important;
+    &:first-child{
+      border-left: 1px solid $border-color  !important;
+    }
+  }
+}
+
+.list_instagram{
+  li{
+    @include rtl-float-left;
+    @include rtl-margin-right(18px);
+    &:last-child{      
+      @include rtl-margin-right(0px);
+    }
+  }
+}

@@ -1,0 +1,3596 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Coolstuff 1.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/fshow\n"
+"POT-Creation-Date: 2015-07-27 19:47:38+00:00\n"
+"POT-Revision-Date: Sat May 07 2016 09:07:49 GMT+0700 (ICT)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the template
+msgid "404 Page"
+msgstr ""
+
+#: ../404.php:27
+msgid "Oops ! That page cant't be found."
+msgstr ""
+
+#: ../404.php:30
+msgid "It looks like nothing was found at this location. Maybe try to search?"
+msgstr ""
+
+#: ../archive.php:33
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../archive.php:36
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../archive.php:36
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../archive.php:39
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../archive.php:39
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:42 ../taxonomy-post_format.php:51
+msgid "Archives"
+msgstr ""
+
+#: ../author.php:37
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: ../category.php:32
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../comments.php:21
+msgid "0 Comment"
+msgstr ""
+
+#: ../comments.php:21 ../content-aside.php:41 ../content-audio.php:54 ../content-
+#: gallery.php:66 ../content-image.php:46 ../content-link.php:56 ../content-quote.
+#: php:47 ../content-video.php:52 ../content.php:38
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:21 ../content-aside.php:41 ../content-audio.php:54 ../content-
+#: gallery.php:66 ../content-image.php:46 ../content-link.php:56 ../content-quote.
+#: php:47 ../content-video.php:52 ../content.php:38
+#, php-format
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:34
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:35
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:40
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:48
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../comments.php:50
+msgid "Comment:"
+msgstr ""
+
+#: ../comments.php:57
+msgid "Name:"
+msgstr ""
+
+#: ../comments.php:61
+msgid "Email:"
+msgstr ""
+
+#: ../comments.php:65
+msgid "Website:"
+msgstr ""
+
+#: ../comments.php:69
+msgid "Post Comment"
+msgstr ""
+
+#: ../comments.php:70
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../content-aside.php:17 ../content-audio.php:29 ../content-gallery.php:41 ..
+#: /content-link.php:31 ../content-quote.php:22 ../content-video.php:27 ..
+#: /content.php:19
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: ../content-aside.php:34 ../content-audio.php:47 ../content-gallery.php:59 ..
+#: /content-image.php:39 ../content-link.php:49 ../content-quote.php:40 ..
+#: /content-video.php:45 ../vc_templates/pbr_gridposts.php:74 ..
+#: /vc_templates/post/_single-fp-v2.php:30
+msgid "by"
+msgstr ""
+
+#: ../content-aside.php:37 ../content-audio.php:50 ../content-gallery.php:62 ..
+#: /content-image.php:42 ../content-link.php:52 ../content-quote.php:43 ..
+#: /content-video.php:48 ../vc_templates/pbr_gridposts.php:77 ..
+#: /vc_templates/post/_single-fp-v2.php:33
+msgid "in"
+msgstr ""
+
+#: ../content-aside.php:41 ../content-audio.php:54 ../content-gallery.php:66 ..
+#: /content-image.php:46 ../content-link.php:56 ../content-quote.php:47 ..
+#: /content-video.php:52 ../content.php:38
+msgid "Leave a comment"
+msgstr ""
+
+#: ../content-aside.php:44 ../content-audio.php:57 ../content-gallery.php:69 ..
+#: /content-image.php:49 ../content-link.php:59 ../content-page.php:22 ../content-
+#: quote.php:50 ../content-video.php:55 ../content.php:42 ../image.php:34 ../page-
+#: templates/contributors.php:29
+msgid "Edit"
+msgstr ""
+
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#: ../content-aside.php:52 ../content-audio.php:65 ../content-gallery.php:77 ..
+#: /content-image.php:57 ../content-link.php:67 ../content-quote.php:58 ..
+#: /content-video.php:63 ../content.php:56 ../inc/template-tags.php:222
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: ../content-aside.php:57 ../content-audio.php:69 ../content-gallery.php:82 ..
+#: /content-image.php:62 ../content-link.php:72 ../content-page.php:16 ../content-
+#: quote.php:63 ../content-video.php:68 ../content.php:60 ../image.php:54
+msgid "Pages:"
+msgstr ""
+
+#: ../content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:18
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../functions.php:88
+msgid "Top primary menu"
+msgstr ""
+
+#: ../functions.php:89
+msgid "Secondary menu in left sidebar"
+msgstr ""
+
+#: ../functions.php:90
+msgid "Topbar Menu in Topbar sidebar"
+msgstr ""
+
+#: ../functions.php:208
+msgid "MetaBox"
+msgstr ""
+
+#: ../functions.php:214
+msgid "WooCommerce"
+msgstr ""
+
+#: ../functions.php:220
+msgid "MailChimp"
+msgstr ""
+
+#: ../functions.php:226
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../functions.php:232
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: ../functions.php:239
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../functions.php:246
+msgid "PBR Themer For Themes"
+msgstr ""
+
+#: ../functions.php:254
+msgid "Google Web Fonts Customizer"
+msgstr ""
+
+#: ../functions.php:271
+msgid "Sidebar Default"
+msgstr ""
+
+#: ../functions.php:273 ../functions.php:283 ../functions.php:294 ../functions.
+#: php:304 ../functions.php:314 ../functions.php:325 ../functions.php:336
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#: ../functions.php:281
+msgid "Newsletter"
+msgstr ""
+
+#: ../functions.php:292
+msgid "Topbar Message"
+msgstr ""
+
+#: ../functions.php:302 ../inc/admin/metabox/pagepost.php:135
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../functions.php:312 ../inc/admin/metabox/pagepost.php:148
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../functions.php:323
+msgid "Blog Left Sidebar"
+msgstr ""
+
+#: ../functions.php:334
+msgid "Blog Right Sidebar"
+msgstr ""
+
+#: ../functions.php:346
+msgid "Static Left Sidebar"
+msgstr ""
+
+#: ../functions.php:348
+msgid ""
+"Appears on posts and pages in the sidebar static left with header static be "
+"actived."
+msgstr ""
+
+#: ../functions.php:358
+msgid "Footer 1"
+msgstr ""
+
+#: ../functions.php:360 ../functions.php:370 ../functions.php:380 ../functions.
+#: php:390 ../functions.php:402
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: ../functions.php:368
+msgid "Footer 2"
+msgstr ""
+
+#: ../functions.php:378
+msgid "Footer 3"
+msgstr ""
+
+#: ../functions.php:388
+msgid "Footer 4"
+msgstr ""
+
+#: ../functions.php:400
+msgid "Footer 5"
+msgstr ""
+
+#: ../functions.php:412
+msgid "Mass Footer Body"
+msgstr ""
+
+#: ../functions.php:414
+msgid "Appears in the end of footer section of the site."
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. supported by Lora, translate this to 'off'. Do not translate
+#. into your own language.
+#: ../functions.php:438
+msgctxt "Hind font: on or off"
+msgid "off"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. supported by Open Sans, translate this to 'off'. Do not translate
+#. into your own language.
+#: ../functions.php:444
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../header-v2.php:40 ../header-v4.php:46 ../header-v7.php:45 ../header.php:55 ..
+#: /inc/template.php:217 ../page-templates/parts/topbar-mobile.php:25
+msgid "Search"
+msgstr ""
+
+#: ../header-v2.php:55 ../header-v3.php:44
+msgid "Dropdown"
+msgstr ""
+
+#: ../image.php:65
+msgid "Previous Image"
+msgstr ""
+
+#: ../image.php:66
+msgid "Next Image"
+msgstr ""
+
+#: ../list_comments.php:30 ../inc/function-post.php:178
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../list_comments.php:31 ../inc/function-post.php:179
+msgid " - Edit"
+msgstr ""
+
+#: ../list_comments.php:32 ../inc/function-post.php:180
+msgid " - Reply"
+msgstr ""
+
+#: ../list_comments.php:37 ../inc/function-post.php:185
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../search.php:24
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:17
+msgid "Search..."
+msgstr ""
+
+#: ../sidebar-footer.php:31
+#, php-format
+msgid "Proudly powered by %s. <br/>Developed by %s"
+msgstr ""
+
+#: ../sidebar-offcanvas.php:7 ../inc/vendors/visualcomposer/class-vc-theme.php:32 
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:69
+msgid "Menu"
+msgstr ""
+
+#: ../sidebar-static-left.php:15
+msgid "Please drag and drop widget on this position Static Left"
+msgstr ""
+
+#: ../tag.php:30
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../taxonomy-post_format.php:30
+msgid "Asides"
+msgstr ""
+
+#: ../taxonomy-post_format.php:33
+msgid "Images"
+msgstr ""
+
+#: ../taxonomy-post_format.php:36
+msgid "Videos"
+msgstr ""
+
+#: ../taxonomy-post_format.php:39
+msgid "Audio"
+msgstr ""
+
+#: ../taxonomy-post_format.php:42
+msgid "Quotes"
+msgstr ""
+
+#: ../taxonomy-post_format.php:45
+msgid "Links"
+msgstr ""
+
+#: ../taxonomy-post_format.php:48
+msgid "Galleries"
+msgstr ""
+
+#: ../inc/customizer.php:33
+msgid "No Sidebar"
+msgstr ""
+
+#: ../inc/customizer.php:58 ../inc/admin/metabox/pagepost.php:28 ..
+#: /inc/admin/metabox/pagepost.php:182
+msgid "Auto"
+msgstr ""
+
+#: ../inc/customizer.php:59 ../inc/admin/metabox/pagepost.php:29 ..
+#: /inc/admin/metabox/pagepost.php:183
+msgid "Left - Main Sidebar"
+msgstr ""
+
+#: ../inc/customizer.php:60 ../inc/admin/metabox/pagepost.php:30 ..
+#: /inc/admin/metabox/pagepost.php:184
+msgid "Main - Right Sidebar"
+msgstr ""
+
+#: ../inc/customizer.php:61 ../inc/admin/metabox/pagepost.php:31 ..
+#: /inc/admin/metabox/pagepost.php:185
+msgid "Left - Main - Right Sidebar"
+msgstr ""
+
+#: ../inc/customizer.php:104
+msgid "Select"
+msgstr ""
+
+#: ../inc/customizer.php:133 ../inc/function-unilty.php:53 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:42 ..
+#: /inc/vendors/visualcomposer/function-vc.php:73 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:449
+msgid "Default"
+msgstr ""
+
+#: ../inc/customizer.php:269
+msgid "Site Title Color"
+msgstr ""
+
+#: ../inc/customizer.php:272
+msgid "Display Site Title &amp; Tagline"
+msgstr ""
+
+#: ../inc/customizer.php:276 ../inc/customizer.php:277
+msgid "May only be visible on wide screens."
+msgstr ""
+
+#: ../inc/customizer.php:279 ../inc/customizer.php:280
+msgid "Background may only be visible on wide screens."
+msgstr ""
+
+#: ../inc/customizer.php:293
+msgid "Topbar Background"
+msgstr ""
+
+#: ../inc/customizer.php:306
+msgid "Topbar Text Color"
+msgstr ""
+
+#: ../inc/customizer.php:322
+msgid "Page Container Background"
+msgstr ""
+
+#: ../inc/customizer.php:339
+msgid "Footer Background"
+msgstr ""
+
+#: ../inc/customizer.php:353
+msgid "Footer Heading Color"
+msgstr ""
+
+#: ../inc/customizer.php:368
+msgid "Footer Text Color"
+msgstr ""
+
+#: ../inc/customizer.php:386
+msgid "Image Link"
+msgstr ""
+
+#: ../inc/customizer.php:411
+msgid "General Settings"
+msgstr ""
+
+#: ../inc/customizer.php:412
+msgid "Website General Settings"
+msgstr ""
+
+#: ../inc/customizer.php:427
+msgid "Site Title"
+msgstr ""
+
+#: ../inc/customizer.php:442
+msgid "Tagline"
+msgstr ""
+
+#: ../inc/customizer.php:457
+msgid "Show Title & Tagline"
+msgstr ""
+
+#: ../inc/customizer.php:475
+msgid "Logo"
+msgstr ""
+
+#: ../inc/customizer.php:491
+msgid "Copyright text"
+msgstr ""
+
+#: ../inc/customizer.php:510
+msgid "Themes And Layouts Setting"
+msgstr ""
+
+#: ../inc/customizer.php:523
+msgid "Active Skin"
+msgstr ""
+
+#: ../inc/customizer.php:537
+msgid "Header Layout Style"
+msgstr ""
+
+#: ../inc/customizer.php:555
+msgid "Footer Styles Builder"
+msgstr ""
+
+#: ../inc/customizer.php:570
+msgid "Social Share setting"
+msgstr ""
+
+#: ../inc/customizer.php:575
+msgid "Share facebook "
+msgstr ""
+
+#: ../inc/customizer.php:577
+msgid "Share twitter "
+msgstr ""
+
+#: ../inc/customizer.php:579
+msgid "Share linkedin "
+msgstr ""
+
+#: ../inc/customizer.php:581
+msgid "Share tumblr "
+msgstr ""
+
+#: ../inc/customizer.php:583
+msgid "Share google plus "
+msgstr ""
+
+#: ../inc/customizer.php:585
+msgid "Share pinterest "
+msgstr ""
+
+#: ../inc/customizer.php:587
+msgid "Share mail "
+msgstr ""
+
+#: ../inc/customizer.php:603
+msgid "Vertical Megamenu"
+msgstr ""
+
+#: ../inc/customizer.php:620
+msgid "Sticky Top Bar"
+msgstr ""
+
+#: ../inc/customizer.php:634
+msgid "Megamenu Duration"
+msgstr ""
+
+#: ../inc/customizer.php:643
+msgid "Front Page Settings"
+msgstr ""
+
+#: ../inc/customizer.php:645 ../inc/customizer.php:717
+msgid "Your theme supports a static front page."
+msgstr ""
+
+#: ../inc/customizer.php:675
+msgid "Front page displays"
+msgstr ""
+
+#: ../inc/customizer.php:679
+msgid "Your latest posts"
+msgstr ""
+
+#: ../inc/customizer.php:680
+msgid "A static page"
+msgstr ""
+
+#: ../inc/customizer.php:691
+msgid "Front page"
+msgstr ""
+
+#: ../inc/customizer.php:704
+msgid "Posts page"
+msgstr ""
+
+#: ../inc/customizer.php:715
+msgid "Pages Settings"
+msgstr ""
+
+#: ../inc/customizer.php:767
+msgid "Blog & Post"
+msgstr ""
+
+#: ../inc/customizer.php:768 ../inc/vendors/woocommerce/class-woocommerce.php:91
+msgid "Make default setting for page, general"
+msgstr ""
+
+#: ../inc/customizer.php:779 ../inc/vendors/woocommerce/class-woocommerce.php:101
+msgid "General Setting"
+msgstr ""
+
+#: ../inc/customizer.php:794
+msgid "Archive & Categgory Setting"
+msgstr ""
+
+#: ../inc/customizer.php:807
+msgid "Select column"
+msgstr ""
+
+#: ../inc/customizer.php:811
+msgid "1 column"
+msgstr ""
+
+#: ../inc/customizer.php:812
+msgid "2 columns"
+msgstr ""
+
+#: ../inc/customizer.php:813
+msgid "3 columns"
+msgstr ""
+
+#: ../inc/customizer.php:814
+msgid "4 columns"
+msgstr ""
+
+#: ../inc/customizer.php:815
+msgid "6 columns"
+msgstr ""
+
+#: ../inc/customizer.php:829 ../inc/vendors/woocommerce/class-woocommerce.php:195
+msgid "Archive Layout"
+msgstr ""
+
+#: ../inc/customizer.php:848 ../inc/vendors/woocommerce/class-woocommerce.php:212
+msgid "Archive Left Sidebar"
+msgstr ""
+
+#: ../inc/customizer.php:863 ../inc/vendors/woocommerce/class-woocommerce.php:228
+msgid "Archive Right Sidebar"
+msgstr ""
+
+#: ../inc/customizer.php:875
+msgid "Single post Setting"
+msgstr ""
+
+#: ../inc/customizer.php:891
+msgid "Show share post"
+msgstr ""
+
+#: ../inc/customizer.php:907
+msgid "Show related post"
+msgstr ""
+
+#: ../inc/customizer.php:922
+msgid "Number of related posts to show"
+msgstr ""
+
+#: ../inc/customizer.php:926
+msgid "2 posts"
+msgstr ""
+
+#: ../inc/customizer.php:927
+msgid "3 posts"
+msgstr ""
+
+#: ../inc/customizer.php:928
+msgid "4 posts"
+msgstr ""
+
+#: ../inc/customizer.php:929
+msgid "6 posts"
+msgstr ""
+
+#: ../inc/customizer.php:944
+msgid "Single Blog Layout"
+msgstr ""
+
+#: ../inc/customizer.php:958
+msgid "Single blog Left Sidebar"
+msgstr ""
+
+#: ../inc/customizer.php:971
+msgid "Single blog Right Sidebar"
+msgstr ""
+
+#: ../inc/customizer.php:1018
+msgid "Cool Stuff"
+msgstr ""
+
+#: ../inc/customizer.php:1021
+#, php-format
+msgid ""
+"The home page features your choice of up to 6 posts prominently displayed in "
+"a grid or slider, controlled by a <a href=\"%1$s\">tag</a>; you can change the "
+"tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If no "
+"posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed "
+"instead."
+msgstr ""
+
+#: ../inc/customizer.php:1021
+msgctxt "featured content default tag slug"
+msgid "featured"
+msgstr ""
+
+#: ../inc/customizer.php:1022
+#, php-format
+msgid ""
+"Enhance your site design by using <a href=\"%s\">Featured Images</a> for posts "
+"you&rsquo;d like to stand out (also known as post thumbnails). This allows "
+"you to associate an image with your post without inserting it. Coolstuff "
+"uses featured images for posts and pages&mdash;above the title&mdash;and in "
+"the Featured Content area on the home page."
+msgstr ""
+
+#: ../inc/customizer.php:1023
+#, php-format
+msgid ""
+"For an in-depth tutorial, and more tips and tricks, visit the <a "
+"href=\"%s\">Coolstuff documentation</a>."
+msgstr ""
+
+#: ../inc/function-post.php:101
+#, php-format
+msgid "%d Article"
+msgid_plural "%d Articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/function-post.php:207
+msgid "Previous"
+msgstr ""
+
+#: ../inc/function-post.php:207
+msgid "Next"
+msgstr ""
+
+#: ../inc/function-post.php:215
+msgid "Showing the single result"
+msgstr ""
+
+#: ../inc/function-post.php:217
+#, php-format
+msgid "Showing all %d results"
+msgstr ""
+
+#: ../inc/function-post.php:219
+#, php-format
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing %1$d to %2$d of %3$d results"
+msgstr ""
+
+#: ../inc/function-unilty.php:57
+msgid "Header"
+msgstr ""
+
+#: ../inc/function-unilty.php:70 ../inc/vendors/visualcomposer/class-vc-elements.
+#: php:83 ../inc/vendors/woocommerce/class-vc-woocommerce.php:72
+msgid "None"
+msgstr ""
+
+#: ../inc/template-tags.php:50
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../inc/template-tags.php:51
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../inc/template-tags.php:58
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:85
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:89
+msgid "Published In"
+msgstr ""
+
+#: ../inc/template-tags.php:91
+msgid "Previous Post"
+msgstr ""
+
+#: ../inc/template-tags.php:92
+msgid "Next Post"
+msgstr ""
+
+#: ../inc/template-tags.php:109
+msgid "Sticky"
+msgstr ""
+
+#: ../inc/template.php:76
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../inc/template.php:169 ../inc/template.php:170
+msgid "Search results for \""
+msgstr ""
+
+#: ../inc/template.php:172 ../inc/template.php:173
+msgid "Posts tagged \""
+msgstr ""
+
+#: ../inc/template.php:177 ../inc/template.php:178
+msgid "Articles posted by "
+msgstr ""
+
+#: ../inc/template.php:180 ../inc/template.php:181
+msgid "Error 404"
+msgstr ""
+
+#: ../inc/template.php:213
+msgid "What do you need..."
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:40
+msgid "Page Layout Setting"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:54
+msgid "Enable Fullwidth Layout"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:62
+msgid "Header Layout"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:70 ../inc/admin/metabox/pagepost.php:82 ..
+#: /inc/admin/metabox/pagepost.php:143 ../inc/admin/metabox/pagepost.php:156
+msgid "Global"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:74
+msgid "Footer Layout"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:87
+msgid "Disable Breadscrumb"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:96
+msgid "Breadcrumbs Text Color"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:99
+msgid "Custom Text Color for breadscrumb"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:105
+msgid "Breadcrumbs Background Color"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:108
+msgid "Custom Background for breadscrumb"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:114
+msgid "Breadscrumb Background"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:122 ../inc/vendors/visualcomposer/class-vc-
+#: news.php:495 ../inc/vendors/woocommerce/class-vc-woocommerce.php:142
+msgid "Layout"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:160
+msgid "Full Page"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:194
+msgid "Format Setting"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:210
+msgid "Images Gallery"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:212 ../inc/admin/metabox/pagepost.php:219 ..
+#: /inc/admin/metabox/pagepost.php:226 ../inc/admin/metabox/pagepost.php:232 ..
+#: /inc/admin/metabox/pagepost.php:239
+msgid "Select one or more images to show as gallery"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:217
+msgid "Video Link"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:224
+msgid "Link Text"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:230
+msgid "Link To Redirect"
+msgstr ""
+
+#: ../inc/admin/metabox/pagepost.php:237
+msgid "Audio Link"
+msgstr ""
+
+#: ../inc/classes/account.php:62
+msgid "Wrong username or password. Please try again!!!"
+msgstr ""
+
+#: ../inc/classes/account.php:65
+msgid "Signin successful, redirecting..."
+msgstr ""
+
+#: ../inc/classes/account.php:85
+msgid "Enter an username or e-mail address."
+msgstr ""
+
+#: ../inc/classes/account.php:91
+msgid "There is no user registered with that email address."
+msgstr ""
+
+#: ../inc/classes/account.php:97
+msgid "There is no user registered with that username."
+msgstr ""
+
+#: ../inc/classes/account.php:100
+msgid "Invalid username or e-mail address."
+msgstr ""
+
+#: ../inc/classes/account.php:123
+msgid "Your new password"
+msgstr ""
+
+#: ../inc/classes/account.php:126
+msgid "Your new password is: "
+msgstr ""
+
+#: ../inc/classes/account.php:135
+msgid "Check your email address for you new password."
+msgstr ""
+
+#: ../inc/classes/account.php:137
+msgid "System is unable to send you mail containg your new password."
+msgstr ""
+
+#: ../inc/classes/account.php:139
+msgid "Oops! Something went wrong while updating your account."
+msgstr ""
+
+#: ../inc/classes/account.php:170
+msgid "Login"
+msgstr ""
+
+#: ../inc/classes/account.php:171 ../inc/classes/account.php:338 ..
+#: /inc/classes/account.php:399
+msgid "Register"
+msgstr ""
+
+#: ../inc/classes/account.php:192 ../inc/classes/account.php:192 ..
+#: /inc/classes/account.php:207 ../inc/classes/account.php:207
+msgid "Logout"
+msgstr ""
+
+#: ../inc/classes/account.php:204
+msgid "Howdy"
+msgstr ""
+
+#: ../inc/classes/account.php:239
+msgid "Hello, Welcome Back!"
+msgstr ""
+
+#: ../inc/classes/account.php:241 ../inc/classes/account.php:368 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:307
+msgid "Username"
+msgstr ""
+
+#: ../inc/classes/account.php:244 ../inc/classes/account.php:378
+msgid "Password"
+msgstr ""
+
+#: ../inc/classes/account.php:247
+msgid "Remember Me"
+msgstr ""
+
+#: ../inc/classes/account.php:250
+msgid "Log In"
+msgstr ""
+
+#: ../inc/classes/account.php:251 ../inc/classes/account.php:318
+msgid "Cancel"
+msgstr ""
+
+#: ../inc/classes/account.php:254
+msgid "Forgot Password"
+msgstr ""
+
+#: ../inc/classes/account.php:254
+msgid "Lost Your Password?"
+msgstr ""
+
+#: ../inc/classes/account.php:256
+msgid "Dont not have an account?"
+msgstr ""
+
+#: ../inc/classes/account.php:256 ../inc/classes/account.php:256
+msgid "Sign Up"
+msgstr ""
+
+#: ../inc/classes/account.php:300
+msgid "Reset Password"
+msgstr ""
+
+#: ../inc/classes/account.php:301
+msgid "Username or E-mail:"
+msgstr ""
+
+#: ../inc/classes/account.php:317
+msgid "Get New Password"
+msgstr ""
+
+#: ../inc/classes/account.php:325
+msgid "Back To Login"
+msgstr ""
+
+#: ../inc/classes/account.php:351
+msgid "Please wait ..."
+msgstr ""
+
+#: ../inc/classes/account.php:356
+msgid "Your account has been activated, you can login now."
+msgstr ""
+
+#: ../inc/classes/account.php:359
+msgid "First name"
+msgstr ""
+
+#: ../inc/classes/account.php:364
+msgid "Last name"
+msgstr ""
+
+#: ../inc/classes/account.php:373 ../inc/vendors/visualcomposer/class-vc-theme.
+#: php:267 ../woocommerce/single-product-reviews.php:117
+msgid "Email"
+msgstr ""
+
+#: ../inc/classes/account.php:383
+msgid "Confirm Password"
+msgstr ""
+
+#: ../inc/classes/nav.php:141
+msgid "New"
+msgstr ""
+
+#: ../inc/classes/nav.php:145
+msgid "Hot"
+msgstr ""
+
+#: ../inc/classes/nav.php:149 ../inc/vendors/woocommerce/class-vc-woocommerce-
+#: extends.php:25 ../vc_templates/pbr_productcats_tabs.php:52
+msgid "Featured"
+msgstr ""
+
+#: ../inc/customizer/googlefonts.php:6
+msgid "Typography Options"
+msgstr ""
+
+#: ../inc/customizer/googlefonts.php:7
+msgid "Modify Fonts"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:324
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:325
+msgid "Install Plugins"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:326
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:327
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:328
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:333
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:338
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:343
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:348
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:353
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:363
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:368
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:373
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:378
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:383
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:388
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:389
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:390 ../inc/plugins/class-tgm-
+#: plugin-activation.php:3014
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:391 ../inc/plugins/class-tgm-
+#: plugin-activation.php:2817
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:392
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:393
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:396
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:515
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:516
+msgid "Update Required"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:629
+msgid "The tgmpa_admin_menu_use_add_theme_page filter is deprecated."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:818 ../inc/plugins/class-tgm-
+#: plugin-activation.php:3423
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:925
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:925 ../inc/plugins/class-tgm-
+#: plugin-activation.php:928
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:928
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:1106 ../inc/plugins/class-tgm-
+#: plugin-activation.php:2813
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:1866
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2152
+msgid "Required"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2155
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2171
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2174
+msgid "External Source"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2177
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2194
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2198
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2200
+msgid "Active"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2206
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2209
+msgid "Requires Update"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2212
+msgid "Update recommended"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2220
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2265
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2268
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2271
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2274
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2356
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2364
+msgid "Installed version:"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2372
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2384
+msgid "Available version:"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2407
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2421
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2422
+msgid "Source"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2423 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:516 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:910 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1021 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1193
+msgid "Type"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2427
+msgid "Version"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2428
+msgid "Status"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2476
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2480
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2485
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2555
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2588
+msgid "Install"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2594
+msgid "Update"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2597
+msgid "Activate"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2628
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2630
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2666
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2668
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2773
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:2799
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:3013
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:3347
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:3349
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:3350
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:3354
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:3355
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:3355 ../inc/plugins/class-tgm-
+#: plugin-activation.php:3361
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:3355 ../inc/plugins/class-tgm-
+#: plugin-activation.php:3361
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:3356
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:3357
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:3360
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:3361
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:3362
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/plugins/class-tgm-plugin-activation.php:3363
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:11
+msgid "PBR Featured Box"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:14
+msgid "Decreale Service Info"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:16 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:126 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:223 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:296 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:21 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:56 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:98 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:120 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:221 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:321 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:361
+msgid "PBR Widgets"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:20 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:130 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:227 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:300 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:26 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:61 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:104 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:124 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:225 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:328 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:60 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:108 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:162 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:218 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:280 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:357 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:491 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:574 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:630 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:884 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:958 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1135
+msgid "Title"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:26 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:334
+msgid "Title Color"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:28 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:76 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:336
+msgid "Select font color"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:33 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:115 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:169 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:225 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:287 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:365 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:499 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:581 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:637 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:892 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:966 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1143
+msgid "Sub Title"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:39 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:199 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:298 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:300 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:378 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:446 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:594
+msgid "Style"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:43
+msgid "Version 1"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:44
+msgid "Version 2"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:45
+msgid "Version 3"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:46
+msgid "Version 4"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:53
+msgid "Title Alignment"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:56 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:987 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1186
+msgid "Align left"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:57
+msgid "Align center"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:58 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:988 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1187
+msgid "Align right"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:65 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:247
+msgid "FontAwsome Icon"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:68 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:250 ..
+#: /inc/vendors/visualcomposer/function-vc.php:98
+msgid "This support display icon from FontAwsome, Please click"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:70 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:252
+msgid "here to see the list"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:74
+msgid "Icon Color"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:80
+msgid "Background Icon"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:84
+msgid "Success"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:85
+msgid "Info"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:86
+msgid "Danger"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:87
+msgid "Warning"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:88
+msgid "Light"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:95 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:131 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:232
+msgid "Photo"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:103 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:146
+msgid "information"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:106 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:187 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:149 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:256
+msgid "Allow  put html tags"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:111 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:207 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:275 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:338 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:60 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:117 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:162 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:218 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:261 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:321 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:393 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:452 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:524 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:572 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:39 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:87 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:206 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:304 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:348 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:380 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:121 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:198 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:247 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:340 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:419 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:472 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:554 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:613 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:664 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:868 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:939 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1049 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1227
+msgid "Extra class name"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:113 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:209 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:277 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:340 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:62 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:119 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:164 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:220 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:263 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:323 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:395 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:454 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:526 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:574 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:41 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:89 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:208 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:306 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:350 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:382 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:123 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:200 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:249 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:342 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:421 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:474 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:556 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:615 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:666 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:870 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:941 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1051 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1229
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:122
+msgid "PBR Pricing"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:124
+msgid "Make Plan for membership"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:137 ..
+#: /woocommerce/cart/cart.php:32
+msgid "Price"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:144
+msgid "Currency"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:151
+msgid "Period"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:158
+msgid "Subtitle"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:165
+msgid "Is Featured"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:167 ..
+#: /inc/vendors/visualcomposer/function-vc.php:118
+msgid "No"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:167
+msgid "Yes"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:171
+msgid "Skin"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:173
+msgid "Skin 1"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:173
+msgid "Skin 2"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:173
+msgid "Skin 3"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:177
+msgid "Box Style"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:179
+msgid "Boxed"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:184
+msgid "Content"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:192
+msgid "Link Title"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:200
+msgid "Link"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:219
+msgid "PBR Counter"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:222
+msgid "Counting number with your term"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:234 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:477 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:341 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:373
+msgid "Description"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:240 ..
+#: /inc/vendors/visualcomposer/class-vc-elements.php:313
+msgid "Number"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:258 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:366
+msgid "If you upload an image, icon will not show."
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:261 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:369 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:309 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:387 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:459 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:757 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:826 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:971 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1079 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1170
+msgid "Image"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:268
+msgid "Text Color"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:282
+msgid "Thumbnail"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:283
+msgid "Small"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:284
+msgid "Large"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:285
+msgid "Original"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:288
+msgid "Same window"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:289
+msgid "New Window"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:292
+msgid "PBR Instagam"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:295
+msgid "Show instagram images"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:319
+msgid "Image Size"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:325
+msgid "Open link?"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-elements.php:331
+msgid "Follow Text"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:13
+msgid "(News) FrontPage 2"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:16 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:71 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:128 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:174 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:230 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:282 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:338 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:409 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:463 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:535
+msgid "PBR News"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:17 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:72 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:129 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:175 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:231 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:283 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:410 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:464 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:536
+msgid "Create Post having blog styles"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:22 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:77 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:134 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:180 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:236 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:288 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:344 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:415 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:469 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:541 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:326
+msgid "Widget title"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:24 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:79 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:136 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:182 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:238 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:290 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:346 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:417 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:471 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:543
+msgid ""
+"Enter text which will be used as widget title. Leave blank if no title is "
+"needed."
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:30 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:87 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:144 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:188 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:244 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:296 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:352 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:422 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:484 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:549
+msgid "Grids content"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:36 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:93 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:150 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:194 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:250 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:302 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:358 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:428 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:490 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:555
+msgid "Create WordPress loop, to populate content from your site."
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:40 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:97 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:307 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:432 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:918
+msgid "Number Main Posts"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:47 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:104 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:205 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:372 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:439 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:511 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:559
+msgid "Show Pagination Links"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:49 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:106 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:207 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:374 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:441 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:513 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:561
+msgid "Enables to show paginations to next new page."
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:50 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:107 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:208 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:375 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:442 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:514 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:562 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:645 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:652 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:659
+msgid "Yes, please"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:54 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:111 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:156 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:212 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:255 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:315 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:387 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:446 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:518 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:566
+msgid "Thumbnail size"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:56 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:113 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:158 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:214 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:257 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:317 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:389 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:448 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:520 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:568
+msgid ""
+"Enter thumbnail size. Example: thumbnail, medium, large, full or other sizes "
+"defined by current theme. Alternatively enter image size in pixels: 200x100 "
+"(Width x Height) . "
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:68
+msgid "(News) FrontPage 3"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:125
+msgid "(News) Categories Post"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:171
+msgid "(News) FrontPage 9"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:198 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:380 ..
+#: /inc/vendors/visualcomposer/class-vc-news.php:504
+msgid "Grid Columns"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:227
+msgid "(Blog) TimeLine Post"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:267
+msgid "Enable Pagination"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:272
+msgid "Select style display."
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:279
+msgid "(News) Categories Tab Post"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:329 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:144 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:736 ..
+#: /inc/vendors/woocommerce/class-woocommerce.php:247 ..
+#: /inc/vendors/woocommerce/function-hook.php:165
+msgid "Grid"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:330 ..
+#: /inc/vendors/woocommerce/class-woocommerce.php:246 ..
+#: /inc/vendors/woocommerce/function-hook.php:166
+msgid "List"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:331
+msgid "List not image"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:335
+msgid "(News) Grid Posts"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:339
+msgid "Post having news,managzine style"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:362 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:524 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:789 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1114 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1216
+msgid "Layout Type"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:367
+msgid "Select Skin layout."
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:406
+msgid "(Blog) FrontPage"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:460
+msgid "(Blog) Grids "
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:497
+msgid "Default Style"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:497
+msgid "Default Style 2"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:497
+msgid "Special Style 1"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:497
+msgid "Special Style 2"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:497
+msgid "Special Style 3"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-news.php:533
+msgid "List Posts"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:18
+msgid "PBR Quick Links Menu"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:22
+msgid "Show Quick Links To Access"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:35 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:72
+msgid "Select menu."
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:53
+msgid "PBR Vertical MegaMenu"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:76
+msgid "Position"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:83
+msgid "Postion Menu Vertical."
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:95
+msgid "Fixed Show Vertical Menu "
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:99
+msgid "Always showing vertical menu on top"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:106
+msgid ""
+"When enabled vertical megamenu widget on main navition and its menu content "
+"will be showed by this module. This module will work with header:Martket, "
+"Market-V2, Market-V3"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:116
+msgid "PBR Our Team Grid Style"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:138 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:246
+msgid "Job"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:153 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:239
+msgid "Phone"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:160
+msgid "Google Plus"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:167 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:274
+msgid "Facebook"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:175 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:282
+msgid "Twitter"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:183
+msgid "Pinterest"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:191 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:290
+msgid "Linked In"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:201 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:300
+msgid "circle"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:201 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:300
+msgid "vertical"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:201 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:300
+msgid "horizontal"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:217
+msgid "PBR Our Team List Style"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:220
+msgid "Show Info In List Style"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:253
+msgid "Information"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:260
+msgid "Blockquote"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:318
+msgid "PBR Widget Heading"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:322
+msgid "Create title for one Widget"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:329
+msgid "Enter heading title."
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:344 ..
+#: /inc/vendors/visualcomposer/class-vc-theme.php:376
+msgid "Enter description for title."
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:358
+msgid "PBR Banner"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/class-vc-theme.php:362
+msgid "Show CountDown with banner"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:41
+msgid "Parallax"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:50
+msgid "Background Styles"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:52
+msgid ""
+"Use Styles Supported In Theme, Select No Use For Customizing on Tab Design "
+"Options"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:54
+msgid "No Use"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:55
+msgid "Background Color Primary"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:56
+msgid "Background Color Info"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:57
+msgid "Background Color Danger"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:58
+msgid "Background Color Warning"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:59
+msgid "Background Color Success"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:60
+msgid "Background Color Theme"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:61
+msgid "Background Image 1 Dark"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:62
+msgid "Background Image 2 Dark"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:63
+msgid "Background Image 3 Blue"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:64
+msgid "Background Image 4 Red"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:70
+msgid "Padding Style"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:74
+msgid "Remove Padding for columns"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:85
+msgid "Is Boxed"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:88
+msgid "Yes, Boxed"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:89
+msgid "No, Wide"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:95 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:327 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:413
+msgid "Icon"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:100
+msgid ""
+"here to see the list, and use class icons-lg, icons-md, icons-sm to change "
+"its size"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:106
+msgid "Image Description"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:114
+msgid "CSS Animation"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:119
+msgid "effect v1"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:120
+msgid "effect v2"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:121
+msgid "effect v3"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:122
+msgid "effect v4"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:123
+msgid "effect v5"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:124
+msgid "effect v6"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:125
+msgid "effect v7"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:126
+msgid "effect v8"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:127
+msgid "effect v9"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:128
+msgid "effect v10"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:130
+msgid ""
+"Select type of animation for element to be animated when it \"enters\" the "
+"browsers viewport (Note: works only in modern browsers)."
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:163
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:166
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:173 ..
+#: /inc/vendors/visualcomposer/function-vc.php:178 ..
+#: /inc/vendors/visualcomposer/function-vc.php:182
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:200
+msgid "Instagram Image"
+msgstr ""
+
+#: ../inc/vendors/visualcomposer/function-vc.php:230
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce-extends.php:23 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:263 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:727
+msgid "Latest Products"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce-extends.php:23
+msgid "Latest"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce-extends.php:25 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:264 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:728
+msgid "Featured Products"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce-extends.php:27
+msgid "Top Rated Products"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce-extends.php:27
+msgid "Top Rated"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce-extends.php:29 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:265 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:729
+msgid "BestSeller Products"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce-extends.php:29
+msgid "BestSeller"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce-extends.php:31 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:267 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:731
+msgid "Special Products"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce-extends.php:31
+msgid "Special"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:57
+msgid "Date"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:58
+msgid "ID"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:59
+msgid "Author"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:61
+msgid "Modified"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:62
+msgid "Random"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:63
+msgid "Comment count"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:64
+msgid "Menu order"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:69
+msgid "Descending"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:70
+msgid "Ascending"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:99
+msgid "PBR Product Deals"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:102 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:156 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:212 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:274 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:351 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:435 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:487 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:570 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:624 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:681 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:742 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:809 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:880 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:954 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1064 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1131
+msgid "PBR Woocommerce"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:103 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:157
+msgid "Display Product Sales with Count Down"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:127 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:230
+msgid "Number items to show"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:134 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:189 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:238 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:319 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:397 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:540 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:606 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:925 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1035 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1202
+msgid "Columns count"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:138 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:146 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:193 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:242 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:323 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:336 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:401 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:409 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:520 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:544 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:609 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:914 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:929 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1025 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1039 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1197 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1206
+msgid "Select columns count."
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:144 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:735
+msgid "Carousel"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:153
+msgid "PBR Timing Deals"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:175
+msgid "Desciption"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:181
+msgid "End Date"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:183
+msgid "Enter Date Count down"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:209
+msgid "PBR Products On Sale"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:213
+msgid "Display Products Sales With Pagination"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:266 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:730
+msgid "TopRated Products"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:271
+msgid "PBR Product Category"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:275 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:352
+msgid "Show Products In Carousel, Grid, List, Special"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:293 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:371 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:440 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:714 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:861 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1106
+msgid "Category"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:306 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:384
+msgid "Upload an image for categories"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:313 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:391 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:548 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:600 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:933 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1043 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1210
+msgid "Number of products to show"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:332 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:405
+msgid "Block Styles"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:348
+msgid "PBR Products Category Index"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:431
+msgid "PBR Product Categories Filter"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:433
+msgid "Show images and links of sub categories in block"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:456 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:754 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:823 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1076
+msgid "Upload an image for categories (190px x 190px)"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:464
+msgid "Number of categories to show"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:483
+msgid "PBR Products"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:485 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:878 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:952
+msgid "Show products as bestseller, featured in block"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:504 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:776 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:897 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1009 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1158
+msgid "Categories"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:508 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:780 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:901 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1013 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1162
+msgid "Select Categories"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:530
+msgid "Product Item Style"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:533
+msgid "Style 1"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:534
+msgid "Style 2"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:535
+msgid "Style 3"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:566
+msgid "PBR Products Tabs"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:568
+msgid "Display BestSeller, TopRated ... Products In tabs"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:586
+msgid "Show Tab"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:588
+msgid "Control teasers look. Enable blocks and place them in desired order."
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:621
+msgid "PBR Product Categories List"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:625
+msgid "Show Categories as menu Links"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:642
+msgid "Show post counts"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:644
+msgid "Enables show count total product of category."
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:649
+msgid "show children of the current category"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:651
+msgid "Enables show children of the current category."
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:656
+msgid "Show dropdown children of the current category "
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:658
+msgid "Enables show dropdown children of the current category."
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:678
+msgid "PBR Product categories "
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:682 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:810 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1065
+msgid "Display product categories in carousel and sub categories"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:686 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:747 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:815 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1069
+msgid "Per page"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:689 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:750 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:818 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1072
+msgid "How much items per page to show"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:693 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:761 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:838 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1083
+msgid "Columns"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:696 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:764 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:841 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1086
+msgid "How much columns grid"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:700 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:768 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:845 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1090
+msgid "Order by"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:703 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:772 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:793 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:849 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1094 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1118
+#, php-format
+msgid "Select how to sort retrieved products. More at %s."
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:707 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:853 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1098
+msgid "Order way"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:710 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:857 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1102
+#, php-format
+msgid "Designates the ascending or descending order. More at %s."
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:718 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:864 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1110
+msgid "Product category list"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:732
+msgid "Recent Products Reviewed"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:739
+msgid "PBR Categories Tabs "
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:743
+msgid "Display  categories in Tabs"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:806
+msgid "Product Categories Style 1 "
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:830
+msgid "Image Float"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:832
+msgid "Left"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:832
+msgid "Right"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:833
+msgid "Display banner image on left or right"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:876
+msgid "PBR Products Collection"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:950
+msgid "PBR Front Products"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:978 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1177
+msgid "Image Url"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:984 ..
+#: /inc/vendors/woocommerce/class-vc-woocommerce.php:1183
+msgid "Image Alignment"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:994
+msgid "Main Products"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:998
+msgid "1"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:999
+msgid "2"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:1000
+msgid "3"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:1001
+msgid "4"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:1002
+msgid "5"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:1003
+msgid "6"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:1060
+msgid "PBR Product Categories Tabs "
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:1127
+msgid "PBR Front Category Products "
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:1129
+msgid "Show products by category in block"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:1148
+msgid "Title Style"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:1151
+msgid "Light Blue"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:1152
+msgid "Yellow"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:1153
+msgid "Pink"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:1219
+msgid "Layout 1 (Image banner)"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:1220
+msgid "Layout 2 (Left title, products grid)"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:1221
+msgid "Layout 3 (Right title, products special1)"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-vc-woocommerce.php:1222
+msgid "Layout 4 (Left title, products special2)"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:54
+msgid "Placeholder"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:90
+msgid "Woocommerce"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:117
+msgid "Enable Mini Basket"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:133
+msgid "Enable QuickView"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:151
+msgid "Enable Swap Image"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:165
+msgid "Breadcrumb image"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:179
+msgid "Archive Page Setting"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:242
+msgid "List Grid"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:261
+msgid "Number of Products Per Page"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:275
+msgid "Number of Products Per Row"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:279 ..
+#: /inc/vendors/woocommerce/class-woocommerce.php:393
+msgid "2 Items"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:280 ..
+#: /inc/vendors/woocommerce/class-woocommerce.php:394
+msgid "3 Items"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:281 ..
+#: /inc/vendors/woocommerce/class-woocommerce.php:395
+msgid "4 Items"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:282 ..
+#: /inc/vendors/woocommerce/class-woocommerce.php:397
+msgid "6 Items"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:295
+msgid "Single Product Page Setting"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:310
+msgid "Product Detail Layout"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:326
+msgid "Product Detail Left Sidebar"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:341
+msgid "Product Detail Right Sidebar"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:357
+msgid "Disable show related product"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:373
+msgid "Disable show upsells product"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:389
+msgid "Number of Product Per Row"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:396
+msgid "5 Items"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:411
+msgid "Number of Products to Show"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/class-woocommerce.php:427
+msgid "Show Social share product"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/function-hook.php:17 ../woocommerce/cart/mini-cart-
+#: button-market-v2.php:6 ../woocommerce/cart/mini-cart-button-v3.php:6 ..
+#: /woocommerce/cart/mini-cart-button-v6.php:6 ../woocommerce/cart/mini-cart-
+#: button.php:6
+#, php-format
+msgid " <span class=\"mini-cart-items\"> %d  </span> "
+msgid_plural " <span class=\"mini-cart-items\"> %d <em></em> </span> "
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/vendors/woocommerce/function-hook.php:306
+msgid "Shopping Cart"
+msgstr ""
+
+#: ../inc/vendors/woocommerce/function-hook.php:309
+msgid "Close"
+msgstr ""
+
+#. Name of the template
+msgid "Coming soon"
+msgstr ""
+
+#: ../page-templates/comingsoon.php:34 ../page-templates/maintanance.php:34
+msgid "Copyright &copy; - Cool Stuff - All right reserved. Powered by WordPress."
+msgstr ""
+
+#: ../page-templates/comingsoon.php:37 ../page-templates/maintanance.php:37
+msgid "Back to home"
+msgstr ""
+
+#. Name of the template
+msgid "Contributor"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width"
+msgstr ""
+
+#. Name of the template
+msgid "Maintanance Mode"
+msgstr ""
+
+#. Name of the template
+msgid "Main Left Sidebar"
+msgstr ""
+
+#: ../page-templates/related_post.php:6
+msgid "Related post"
+msgstr ""
+
+#: ../page-templates/parts/sharebox.php:21
+msgid "Share on facebook"
+msgstr ""
+
+#: ../page-templates/parts/sharebox.php:28
+msgid "Share on Twitter"
+msgstr ""
+
+#: ../page-templates/parts/sharebox.php:35
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: ../page-templates/parts/sharebox.php:42
+msgid "Share on Tumblr"
+msgstr ""
+
+#: ../page-templates/parts/sharebox.php:50
+msgid "Share on Google plus"
+msgstr ""
+
+#: ../page-templates/parts/sharebox.php:58
+msgid "Share on Pinterest"
+msgstr ""
+
+#: ../page-templates/parts/sharebox.php:65
+msgid "Email to a Friend"
+msgstr ""
+
+#: ../page-templates/parts/topbar-mobile.php:12 ../woocommerce/cart/mini-cart-
+#: button-market-v2.php:4 ../woocommerce/cart/mini-cart-button-v2.php:4 ..
+#: /woocommerce/cart/mini-cart-button-v3.php:4 ../woocommerce/cart/mini-cart-
+#: button-v4.php:4 ../woocommerce/cart/mini-cart-button-v6.php:4 ..
+#: /woocommerce/cart/mini-cart-button-v7.php:4 ../woocommerce/cart/mini-cart-
+#: button.php:4
+msgid "View your shopping cart"
+msgstr ""
+
+#: ../page-templates/parts/topbar-v3.php:24 ../page-templates/parts/topbar-v4.php:
+#: 25
+msgid "Welcome "
+msgstr ""
+
+#: ../vc_templates/pbr_categoriespost.php:23 ../vc_templates/pbr_categorytabpost.
+#: php:21
+msgid "Please select category or more to show posts and the navigator"
+msgstr ""
+
+#: ../vc_templates/pbr_category_filter.php:48 ../vc_templates/pbr_category_filter.
+#: php:87 ../vc_templates/pbr_productcats_tabs.php:46
+msgid "Products"
+msgstr ""
+
+#: ../vc_templates/pbr_category_filter.php:68 ../vc_templates/pbr_category_filter.
+#: php:68 ../vc_templates/pbr_category_filter.php:107 ..
+#: /vc_templates/pbr_category_filter.php:107
+msgid "shop now"
+msgstr ""
+
+#: ../vc_templates/pbr_portfolio.php:62
+msgid "All"
+msgstr ""
+
+#: ../vc_templates/pbr_productcats_normal.php:79 ..
+#: /vc_templates/pbr_productcats_tabs.php:58
+msgid "Best Seller"
+msgstr ""
+
+#: ../vc_templates/pbr_productcats_normal.php:116 ..
+#: /vc_templates/pbr_productcats_tabs.php:55
+msgid "New Arrivals"
+msgstr ""
+
+#: ../vc_templates/blog/blog-v2.php:31 ../vc_templates/blog/special-1.php:31 ..
+#: /vc_templates/blog/special-2.php:31 ../vc_templates/blog/special-3.php:39 ..
+#: /vc_templates/post/_single-hover.php:16 ../vc_templates/post/_timelife.php:62 .
+#: ./widgets/recent_post/stick.php:54 ../widgets/recent_post/stick.php:73
+msgid " 0 comment"
+msgstr ""
+
+#: ../vc_templates/blog/blog-v2.php:31 ../vc_templates/blog/special-1.php:31 ..
+#: /vc_templates/blog/special-2.php:31 ../vc_templates/blog/special-3.php:39 ..
+#: /vc_templates/post/_single-hover.php:16 ../vc_templates/post/_timelife.php:62 .
+#: ./widgets/recent_post/stick.php:54 ../widgets/recent_post/stick.php:73
+msgid " 1 comment"
+msgstr ""
+
+#: ../vc_templates/blog/blog-v2.php:31 ../vc_templates/blog/special-1.php:31 ..
+#: /vc_templates/blog/special-2.php:31 ../vc_templates/blog/special-3.php:39 ..
+#: /vc_templates/post/_single-hover.php:16 ../vc_templates/post/_timelife.php:62 .
+#: ./widgets/recent_post/stick.php:54 ../widgets/recent_post/stick.php:73
+#, php-format
+msgid " % comments"
+msgstr ""
+
+#: ../vc_templates/blog/special-3.php:36
+msgid "By "
+msgstr ""
+
+#: ../vc_templates/post/_categories-list.php:29 ../vc_templates/post/_single-fp-
+#: v1.php:52 ../vc_templates/post/_single.php:49 ../vc_templates/post/slideshow.
+#: php:28
+msgid " 0 "
+msgstr ""
+
+#: ../vc_templates/post/_categories-list.php:29 ../vc_templates/post/_single-fp-
+#: v1.php:52 ../vc_templates/post/_single.php:49 ../vc_templates/post/slideshow.
+#: php:28
+msgid " 1 "
+msgstr ""
+
+#: ../vc_templates/post/_categories-list.php:29 ../vc_templates/post/_single-fp-
+#: v1.php:52 ../vc_templates/post/_single.php:49 ../vc_templates/post/slideshow.
+#: php:28
+msgid " % "
+msgstr ""
+
+#: ../vc_templates/post/_single-fp-v1.php:10 ../vc_templates/post/_single-v2.php:
+#: 9 ../vc_templates/post/_single-v3.php:8 ../vc_templates/post/_single-v4.php:8 .
+#: ./vc_templates/post/_single.php:9
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: ../vc_templates/post/_single-fp-v1.php:57 ../vc_templates/post/_single.php:54 .
+#: ./vc_templates/post/slideshow.php:33
+msgid "By"
+msgstr ""
+
+#: ../vc_templates/post/_timelife.php:83
+msgid "read more"
+msgstr ""
+
+#: ../vc_templates/post_block/_item.php:24
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../vc_templates/post_block/_item.php:24
+msgid "Read more"
+msgstr ""
+
+#: ../woocommerce/content-product-info-list.php:72 ../woocommerce/content-product-
+#: info.php:67 ../woocommerce/content-product-inner-list.php:88
+msgid "add to compare"
+msgstr ""
+
+#: ../woocommerce/content-product-inner-list.php:65
+msgid "Quick view"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:29 ../woocommerce/single-product-
+#: reviews.php:76
+msgid "Reviews"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:35
+msgid "Customers review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:40
+#, php-format
+msgid "%s ratings"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:46
+msgid "Star"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:61
+msgid "Rate it!"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:62
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:63
+msgid "Write A Review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:74
+#, php-format
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../woocommerce/single-product-reviews.php:97
+msgid "There are no reviews yet."
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:110
+msgid "Add a review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:110
+msgid "Be the first to review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:111
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:115
+msgid "Name"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:120
+msgid "Submit"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:127
+msgid "Your Rating"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:129
+msgid "Rate&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:130
+msgid "Perfect"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:131
+msgid "Good"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:132
+msgid "Average"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:133
+msgid "Not that bad"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:134
+msgid "Very Poor"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:139
+msgid "Your Review"
+msgstr ""
+
+#: ../woocommerce/cart/cart-empty.php:16
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: ../woocommerce/cart/cart-empty.php:20
+msgid "Return To Shop"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:31
+msgid "Product"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:33
+msgid "Quantity"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:34
+msgid "Total"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:51 ../woocommerce/cart/mini-cart.php:48
+msgid "Remove this item"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:80
+msgid "Available on backorder"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:125
+msgid "Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:125
+msgid "Coupon code"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:125
+msgid "Apply Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:131
+msgid "Update Cart"
+msgstr ""
+
+#: ../woocommerce/cart/cross-sells.php:40
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart-button-market-v2.php:5 ../woocommerce/cart/mini-
+#: cart-button-v3.php:5 ../woocommerce/cart/mini-cart-button-v6.php:5 ..
+#: /woocommerce/cart/mini-cart-button.php:5
+msgid "My Cart "
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart-button-v2.php:8 ../woocommerce/cart/mini-cart-
+#: button-v4.php:8 ../woocommerce/cart/mini-cart-button-v7.php:8
+#, php-format
+msgid "<span class=\"mini-cart-items\"> %d </span>"
+msgid_plural " <span class=\"mini-cart-items\"> %d  </span> "
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../woocommerce/cart/mini-cart.php:71
+msgid "No products in the cart."
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:79
+msgid "Subtotal"
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:84
+msgid "View Cart"
+msgstr ""
+
+#: ../woocommerce/cart/mini-cart.php:85
+msgid "Checkout"
+msgstr ""
+
+#: ../woocommerce/single-product/related.php:50
+msgid "Related Products"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:38
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:39
+msgid "out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:48
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: ../woocommerce/single-product/review.php:57
+msgid "verified owner"
+msgstr ""
+
+#: ../woocommerce/single-product/up-sells.php:43
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:31
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:42
+msgid "Clear"
+msgstr ""
+
+#. Name of the theme
+msgid "CoolStuff"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://bit.ly/opalwp"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"The CoolStuff Creative Multi Purpose WooCommerce theme for WordPress by <a "
+"href=\"http://bit.ly/opalwp\">OpalTeam</a>is a fully responsive theme that "
+"looks great on any device. That's the best for any kind of online shoping "
+"sites. <a href=\"http://bit.ly/opalwp\">Follow us on Themeforest to receive "
+"newest updates</a>"
+msgstr ""
+
+#. Author of the theme
+msgid "WpOpal Team"
+msgstr ""
